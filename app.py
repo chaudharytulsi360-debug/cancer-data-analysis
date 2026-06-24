@@ -12,7 +12,7 @@ st.caption("Evaluating clinical dimensions using high-accuracy Ensemble Learning
 st.write("---")
 
 # Load Saved Model Safely
-model = joblib.load(r"C:\Users\Hp\cancer_rf_model.pkl")
+model = joblib.load("cancer_rf_model.pkl")
 
 # Layout Split Into Grid Columns
 col1, col2 = st.columns(2, gap="large")
